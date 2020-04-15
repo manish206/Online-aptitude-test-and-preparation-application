@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.project.AdminHome_Page"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/view_users_uploaded_questions"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_users_black_24dp"
+        android:title="View users uploaded question"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/view_uploaded_questions"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_file_upload_black_24dp"
+        android:title="View uploaded questions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/total_coins"
+        android:orderInCategory="100"
+        android:title="Total coins"
+        android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/sign_out"
+        android:orderInCategory="100"
+        android:title="Sign out"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        app:showAsAction="never" />
+</menu>
